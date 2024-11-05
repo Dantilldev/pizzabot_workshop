@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pizzabot</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizzabot</h1>
+      <h2>
+        On our menu we have <span id="pizzaColor1">Vegetarian Pizza</span>,
+        <span id="pizzaColor2">Hawaiian Pizza</span> and
+        <span id="pizzaColor3">Pepperoni Pizza</span>
+      </h2>
+
+      <form class="form" action="">
+        <div class="pizzaBox">
+          <p class="inputP">Write down the pizza you want</p>
+          <input
+            class="theChoosenPizza"
+            type="text"
+            placeholder="Choose the pizza"
+            required
+          />
+        </div>
+
+        <div class="amountBox">
+          <p class="inputP">How many pizzas do you want?</p>
+          <input
+            class="amountPizza"
+            type="number"
+            placeholder="Amount of pizza"
+            required
+          />
+        </div>
+
+        <button class="btn">Order</button>
+
+        <div><p class="response"></p></div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
